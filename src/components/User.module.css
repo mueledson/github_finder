@@ -1,0 +1,49 @@
+.user{
+    background-color: #2B3566;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.user img {
+    width: 350px;
+    width: 350px;
+    border: 4px solid #644AFF;
+    border-radius: 50%;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.location svg{
+    fill: #4ED8C7;
+    font-size: 1.5rem;
+}
+
+.location span {
+        color: #9DA5D1;
+        font-weight: bold;
+}
+
+.status{
+    display: flex;
+}
+
+.status div {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.number {
+    background-color: #4ED8C7;
+    border-radius: 3px;
+}
